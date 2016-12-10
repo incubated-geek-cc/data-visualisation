@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Headquarters",
+        "type": "Headquarters",
+        "zipCode": 21202,
+        "neighborhood": "Downtown",
+        "councilDistrict": 11,
+        "policeDistrict": "Central",
+        "Location": "601 Fayette St Baltimore MD",
+        "Lat": 39.29022,
+        "Long": -76.607688
+    },
+    {
+        "name": "Central",
+        "type": "Police Station",
+        "zipCode": 21202,
+        "neighborhood": "Downtown",
+        "councilDistrict": 11,
+        "policeDistrict": "Central",
+        "Location": "500 Baltimore St Baltimore MD",
+        "Lat": 39.290637,
+        "Long": -76.608168
+    },
+    {
+        "name": "Northern",
+        "type": "Police Station",
+        "zipCode": 21215,
+        "neighborhood": "Woodberry",
+        "councilDistrict": 6,
+        "policeDistrict": "Northern",
+        "Location": "2201 Cold Spring Ln Baltimore MD",
+        "Lat": 39.342815,
+        "Long": -76.65198
+    },
+    {
+        "name": "North-Eastern",
+        "type": "Police Station",
+        "zipCode": 21218,
+        "neighborhood": "Morgan State University",
+        "councilDistrict": 3,
+        "policeDistrict": "North-Eastern",
+        "Location": "1900 Argonne Dr Baltimore MD",
+        "Lat": 39.340746,
+        "Long": -76.582786
+    },
+    {
+        "name": "North-Western",
+        "type": "Police Station",
+        "zipCode": 21215,
+        "neighborhood": "Woodmere",
+        "councilDistrict": 5,
+        "policeDistrict": "North-Western",
+        "Location": "5271 Reisterstown Rd Baltimore MD",
+        "Lat": 39.344631,
+        "Long": -76.685428
+    },
+    {
+        "name": "Eastern",
+        "type": "Police Station",
+        "zipCode": 21213,
+        "neighborhood": "Berea",
+        "councilDistrict": 13,
+        "policeDistrict": "Eastern",
+        "Location": "1620 Edison Hwy Baltimore MD",
+        "Lat": 39.310023,
+        "Long": -76.573367
+    },
+    {
+        "name": "Southern",
+        "type": "Police Station",
+        "zipCode": 21225,
+        "neighborhood": "Middle Branch/Reedbird Parks",
+        "councilDistrict": 10,
+        "policeDistrict": "Southern",
+        "Location": "10 Cherry Hill Rd Baltimore MD",
+        "Lat": 39.253042,
+        "Long": -76.617129
+    },
+    {
+        "name": "South-Eastern",
+        "type": "Police Station",
+        "zipCode": 21224,
+        "neighborhood": "Hopkins Bayview",
+        "councilDistrict": 2,
+        "policeDistrict": "South-Eastern",
+        "Location": "5710 Eastern Av Baltimore MD",
+        "Lat": 39.287735,
+        "Long": -76.547377
+    },
+    {
+        "name": "South-Western",
+        "type": "Police Station",
+        "zipCode": 21223,
+        "neighborhood": "Gwynns Falls",
+        "councilDistrict": 8,
+        "policeDistrict": "South-Western",
+        "Location": "424 Font Hill Av Baltimore MD",
+        "Lat": 39.278433,
+        "Long": -76.663769
+    },
+    {
+        "name": "Western",
+        "type": "Police Station",
+        "zipCode": 21217,
+        "neighborhood": "Sandtown-Winchester",
+        "councilDistrict": 9,
+        "policeDistrict": "Western",
+        "Location": "1034 Mount St Baltimore MD",
+        "Lat": 39.300588,
+        "Long": -76.64495
+    }
+]

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">      
+        <title>IS Mafia : : VA Project</title>        
+        <script src="js/leaflet.js"></script>
+        <script src="js/d3.js" charset="utf-8"></script>
+        <script src="js/crossfilter.js" charset="utf-8"></script>
+        <script src="js/dc.js" charset="utf-8"></script>
+        <script src="js/leaflet.markercluster.js"></script>        
+        <link href="css/bootstrap.min.css" rel="stylesheet">        
+        <link rel="stylesheet" href="css/leaflet.css" />
+        <link rel="stylesheet" href="css/dc.css" />
+        <link rel="stylesheet" href="css/MarkerCluster.Default.css" />        
+        <link rel="stylesheet" href="css/custom.css" /> 
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>  
+        <link rel="stylesheet" href="css/font-awesome.css" /> 
+    </head>
+    <body>
+        <div class="row">
+            <div class='col-md-6'>
+                <!-- ======================== THE HEADER LOGO ======================== -->
+                <div class='row'>
+                    <div class="col-md-12">
+                        <img src="img/thumbprint.jpg" class="pull-left" style="height:49px"/>&nbsp;&nbsp;<img src="img/logo.jpg" style="height:43px"/>
+                    </div>
+                </div>
+                <!-- ======================== //THE HEADER LOGO ======================== -->
+                <!-- ======================== WHERE LEAFLET MAP IS RENDERED ======================== -->
+                <div class='row'>
+                    <div id='map'></div>
+                </div>
+                <!-- ========================//WHERE LEAFLET MAP IS RENDERED ======================== -->
+                <!-- ======================== THE DATE BAR CHART ======================================== -->
+                <div class='row'>
+                    <div class='col-md-12'>
+                        <div class='row'>
+                            <div class='col-md-12' id="date-chart">
+                                <h5># of Homicide Incidents by Date</h5>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+                <!-- ========================//THE DATE BAR CHART ======================================== -->
+            </div>
+            <div class='col-md-6'> 
+                <!-- ======================== THE TEXT DESCRIPTION PORTION ======================== -->
+                <div id="analysis" class="row">
+                    <div class="col-md-12" style="margin-left:25px;padding-right:30px">
+                        <i class="fa fa-info-circle"></i> The following depicts the geographical distributions of homicide crime rates between years 2010 - 2014. Based on the graph visualisations, it is evident that the most commonly used weapons in all homicide cases are firearms, which points to a possible overly lax reinforcement on firearms in the city of Baltimore.<br><br>
+                        Moreover, the Eastern and Northern districts of Baltimore has the greatest no. of homicide incidents in various time periods during years 2010 - 2014, which signals a potential lack of manpower at the Eastern and Northern police stations.<br><br>
+                        From the clustering of homicide incidents aggregated from years 2010 - 2014, both Eastern and North-Western police stations have the highest no. of homicide incidents occurring within its proximity relative to the other police stations in Baltimore. This signals that these 2 police stations are the ones which need the greatest allocation of manpower and law reinforcements as compared to other police stations of the city.
+                    </div>
+                </div>
+                <!-- ========================//THE TEXT DESCRIPTION PORTION ======================== -->
+                <div class="row">
+                    <div class='col-md-6'>      
+                        <!-- ======================== THE RESET ALL BUTTON ======================== -->
+                        <div class="col-md-12">
+                            <button class="btn btn-info" id="reset"><i class="fa fa-repeat"></i> Reset All</button>
+                        </div>
+                        <!-- ========================//THE RESET ALL BUTTON ======================== -->
+                        <!-- ======================== THE WEAPON ROW CHART ======================== -->
+                        <div class='col-md-12' id="weapon-chart">
+                            <h5 style="margin-left:10px">Weapon</h5>
+                        </div>
+                        <!-- ========================//THE WEAPON ROW CHART ======================== -->
+                        <!-- ======================== THE DAY OF WEEK ROW CHART ======================== -->
+                        <div class='col-md-12' id="day-chart">
+                            <h5 style="margin-left:10px">Day of Week</h5>
+                        </div>        
+                        <!-- ========================//DAY OF WEEK ROW CHART ======================== -->                        
+                    </div>
+                    <div class='col-md-6'> 
+                        <!-- ========================//THE DISTRICT ROW CHART ======================== -->         
+                        <div class='row col-md-12' id="district-chart">
+                            <h5 style="margin-left:25px">District</h5>
+                        </div>
+                        <!-- ========================//THE DISTRICT ROW CHART ======================== -->         
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>      
+    </body>
+</html>
